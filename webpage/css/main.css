@@ -6348,7 +6348,7 @@ a:hover, a:focus {
   line-height: 1;
   color: #000000;
   white-space: nowrap;
-  cursor: none;
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {

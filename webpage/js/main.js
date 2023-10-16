@@ -682,7 +682,7 @@ function animate({
 	});
 
 	$('.__js-marquee--reverse').on('beforeStarting', function() {
-		var item = $('.tooltip__item');
+		var item = $('.tooltip__item_tool');
 		item.on('mouseover', onMarqueeItemHover);
 	}).marquee({
 		//speed in milliseconds of the marquee
@@ -730,7 +730,7 @@ function animate({
 		});
 	}
 
-	function createItemCard(imageData) {
+	/*function createItemCard(imageData) {
 		if (imageData.url) {
 			var card = $('<div class="tooltip__card"></a>');
 			var format = imageData.url.slice(imageData.url.lastIndexOf('.'));
@@ -757,7 +757,7 @@ function animate({
 
 			return card;
 		}
-	}
+	}*/
 })();
 
 /* 12. Masonry */
