@@ -131,7 +131,7 @@ html {
     background-color: transparent;
   }
   html ::-webkit-scrollbar-thumb {
-    background-color: #fffe55;
+    background-color: #000;
     border-radius: none;
   }
   html ::-webkit-scrollbar-corner {
@@ -865,7 +865,7 @@ a:hover, a:focus {
   height: 190px;
       -ms-flex-pack: center;
       -ms-flex-align: center;
-  background-color: #fffe55;
+  background-color: #fff;
   border: none;
   border-radius: 50%;
   -webkit-box-pack: center;
