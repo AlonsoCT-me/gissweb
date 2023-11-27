@@ -19,6 +19,13 @@
         background: #000;
     }
 
+    .img-fluid {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
     .footer {
         background-color: #000000;
         color: #ffffff;
@@ -103,18 +110,44 @@
         main {
             background-color: #000000;
 
-            h1, p {
+            h1,
+            p {
                 color: #ffffff;
             }
 
         }
+
         .about-us {
             h1 {
                 font-size: 3rem;
                 margin-top: 0;
             }
+
             p {
                 font-size: 1.4rem;
+            }
+        }
+    }
+
+    &.the-project {
+
+        .row {
+            margin: 20px auto;
+        }
+
+        .header__logo {
+            h2 {
+                color: #000;
+            }
+        }
+
+        .header {
+            &.is-fixed {
+                .header__logo {
+                    h2 {
+                        color: #fff;
+                    }
+                }
             }
         }
     }
