@@ -1,7 +1,22 @@
 #gisssaune-web {
 
+    .header__logo {
+        font-weight: normal;
+        color: #ffff;
+
+        h2 {
+            font-weight: normal;
+            color: #ffff;
+        }
+    }
+
+    .round-button__circle {
+        height: 300px;
+        width: 300px;
+    }
+
     .round-button {
-        background: #ffffff;
+        background: #000;
     }
 
     .footer {
@@ -54,7 +69,7 @@
         }
 
         .service-preview__caption {
-        	text-transform: none;
+            text-transform: none;
         }
 
         .service-preview:hover .service-preview__caption,
@@ -65,19 +80,42 @@
     }
 
     &.the-contact {
-    	background-color: #cbcbcb !important;
+        background-color: #cbcbcb !important;
 
-    	main {
-    		background-color: #cbcbcb;
-    	}
+        main {
+            background-color: #cbcbcb;
+        }
 
-    	.contact-section__map {
-    		height: 40px;
-    	}
-    	.contact-section__link {
-    		a {
-    			text-transform: none;
-    		}
-    	}
+        .contact-section__map {
+            height: 40px;
+        }
+
+        .contact-section__link {
+            a {
+                text-transform: none;
+            }
+        }
+    }
+
+    &.the-bio {
+        background-color: #000000;
+
+        main {
+            background-color: #000000;
+
+            h1, p {
+                color: #ffffff;
+            }
+
+        }
+        .about-us {
+            h1 {
+                font-size: 3rem;
+                margin-top: 0;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
     }
 }
