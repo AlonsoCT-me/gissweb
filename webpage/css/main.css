@@ -9478,18 +9478,21 @@ a:hover, a:focus {
   }
 }
 
-.single-project__next {
+.single-project__next,
+.single-project__prev {
   margin-top: 60px;
   text-align: right;
 }
 
 @media (min-width: 992px) {
-  .single-project__next {
+  .single-project__next,
+  .single-project__prev {
     margin-top: 100px;
   }
 }
 
-.single-project__next a {
+.single-project__next a,
+.single-project__prev a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -9506,38 +9509,45 @@ a:hover, a:focus {
 }
 
 @media (min-width: 768px) {
-  .single-project__next a {
+  .single-project__next a,
+  .single-project__prev a {
     font-size: 70px;
   }
 }
 
 @media (min-width: 992px) {
-  .single-project__next a {
+  .single-project__next a,
+  .single-project__prev a {
     font-size: 100px;
   }
 }
 
-.single-project__next a:focus {
+.single-project__next a:focus
+.single-project__prev a:focus {
   outline: none;
 }
 
 @media (min-width: 992px) {
-  .single-project__next a:hover, .single-project__next a:focus {
-    color: #fffe55;
+  .single-project__next a:hover, .single-project__next a:focus,
+  .single-project__prev a:focus, .single-project__prev a:hover {
+    color: #666;
   }
-  .single-project__next a:hover svg, .single-project__next a:focus svg {
-    fill: #fffe55;
+  .single-project__next a:hover svg, .single-project__next a:focus svg,
+  .single-project__prev a:focus svg, .single-project__prev a:hover svg {
+    fill: #666;
   }
 }
 
-.single-project__next a svg {
+.single-project__next a svg,
+.single-project__prev a svg {
   margin-left: 26px;
   -webkit-transition: fill 0.3s ease;
   transition: fill 0.3s ease;
 }
 
 @media (min-width: 992px) {
-  .single-project__next a svg {
+  .single-project__next a svg,
+    .single-project__prev a svg {
     margin-left: 45px;
   }
 }
@@ -9579,6 +9589,15 @@ a:hover, a:focus {
   .header--secondary .header__mobile .mobile-canvas__nav {
     left: 0;
   }
+}
+
+  .single-project__next a,
+  .single-project__prev a {
+    line-height: normal;
+  }
+
+.single-project__prev a svg {
+  transform: rotate(180deg);
 }
 
 .header--white .logo svg {
