@@ -52,6 +52,27 @@
         }
     }
 
+    .single-project {
+        .single-project__hero-image {
+            aspect-ratio: 16/9;
+        }
+    }
+
+    .video-container {
+        video {
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            width: 100%;
+            height: auto;
+            background:  #000 no-repeat;
+            background-size: cover;
+            right: 0;
+            left: 0;
+            aspect-ratio: 16/9;
+        }
+    }
+
     &.homepage {
         background-color: #000;
         background-image: url('../img/GSV_bgHome.jpg');
@@ -88,13 +109,15 @@
 
     &.the-projects {
         background-color: #f0f0f0 !important;
+
         .header__logo {
             h2 {
                 color: #000000;
             }
         }
+
         .project-preview--elastic .project-preview__image img {
-                background: #000;
+            background: #000;
         }
     }
 
@@ -160,6 +183,19 @@
                         color: #fff;
                     }
                 }
+            }
+        }
+    }
+
+
+    &.cinetecamx {
+        .single-project__hero-image {
+            display: flex;
+            align-items: flex-start;
+
+            img {
+                object-fit: contain;
+                height: auto;
             }
         }
     }
