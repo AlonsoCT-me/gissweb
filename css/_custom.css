@@ -1,18 +1,3 @@
-#gisssaune-web .single-project__next.aos-init.aos-animate {
-  display: none;
-}
-#gisssaune-web .header__social.social {
-  column-gap: 16px;
-}
-#gisssaune-web .header__social.social .social__item {
-  margin-inline: 0 !important;
-}
-#gisssaune-web .header__social.social .social__item:nth-child(1) {
-  order: 1;
-}
-#gisssaune-web .header__social.social .social__item:nth-child(2) {
-  order: 0;
-}
 #gisssaune-web .header__logo {
   font-weight: normal;
   color: #ffff;
@@ -20,9 +5,6 @@
 #gisssaune-web .header__logo h2 {
   font-weight: normal;
   color: #ffff;
-}
-#gisssaune-web .header--fixed .header__logo .logo h2 {
-  color: #fff !important;
 }
 #gisssaune-web .round-button__circle {
   height: 300px;
@@ -56,14 +38,6 @@
 }
 #gisssaune-web .single-project .single-project__hero-image {
   aspect-ratio: 16/9;
-}
-#gisssaune-web .single-project .single-project__img {
-  overflow: hidden;
-}
-#gisssaune-web .single-project .single-project__img img {
-  margin: 0 auto;
-  display: block;
-  width: 100vw;
 }
 #gisssaune-web .video-container video {
   display: block;
@@ -118,9 +92,6 @@
 #gisssaune-web.the-contact main {
   background-color: #cbcbcb;
 }
-#gisssaune-web.the-contact header:not(.is-fixed) .header__logo h2 {
-  color: #000;
-}
 #gisssaune-web.the-contact .contact-section__map {
   height: 40px;
 }
@@ -144,17 +115,13 @@
 #gisssaune-web.the-bio .about-us p {
   font-size: 1.4rem;
 }
-#gisssaune-web.the-bio .about-us .about-video-section__aside img {
-  object-fit: contain;
-  aspect-ratio: 16 / 1;
-}
-#gisssaune-web.the-projects .row {
+#gisssaune-web.the-project .row {
   margin: 20px auto;
 }
-#gisssaune-web.the-projects .header__logo h2 {
+#gisssaune-web.the-project .header__logo h2 {
   color: #000;
 }
-#gisssaune-web.the-projects .header.is-fixed .header__logo h2 {
+#gisssaune-web.the-project .header.is-fixed .header__logo h2 {
   color: #fff;
 }
 #gisssaune-web.cinetecamx .single-project__hero-image {
