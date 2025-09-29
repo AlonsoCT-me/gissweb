@@ -160,6 +160,9 @@
 #gisssaune-web.the-projects .header__logo h2 {
   color: #000;
 }
+#gisssaune-web.the-projects .header {
+  padding-inline: 0;
+}
 #gisssaune-web.the-projects .header.is-fixed .header__logo h2 {
   color: #fff;
 }
@@ -172,6 +175,9 @@
   height: auto;
 }
 @media (max-width: 768px) {
+  #gisssaune-web header {
+    padding-inline: 0;
+  }
   #gisssaune-web .tooltip__btn.round-button {
     position: relative;
     top: 0;
@@ -198,6 +204,9 @@
   }
   #gisssaune-web.the-bio .about-us .about-video-section__aside img {
     aspect-ratio: unset;
+  }
+  #gisssaune-web.the-project.wndh .single-project__hero-image {
+    aspect-ratio: auto;
   }
   #gisssaune-web.the-project.wndh .single-project__hero-image img {
     display: block;
