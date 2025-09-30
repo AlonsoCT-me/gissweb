@@ -190,6 +190,7 @@
     opacity: 0.99;
     background-image: url('../img/GSVweb_Background_mobile.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
   }
   #gisssaune-web header {
     padding-inline: 0;
