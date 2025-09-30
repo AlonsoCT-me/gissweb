@@ -86,11 +86,11 @@
 }
 #gisssaune-web.homepage {
   background-color: #000;
-  background-image: url('../img/GSVweb_Background.jpg');
+  background-image: url('../img/GSVweb_Background_dk.jpg');
 }
 #gisssaune-web.homepage .tooltip--theme-dark {
   opacity: 0.99;
-  background-image: url('../img/GSVweb_Background.jpg');
+  background-image: url('../img/GSVweb_Background_dk.jpg');
   background-repeat: no-repeat;
 }
 #gisssaune-web.the-services {
@@ -182,6 +182,16 @@
   height: auto;
 }
 @media (max-width: 768px) {
+  #gisssaune-web.homepage {
+    background-color: #000;
+    background-image: url('../img/GSVweb_Background_mobile.jpg');
+  }
+  #gisssaune-web.homepage .tooltip--theme-dark {
+    opacity: 0.99;
+    background-image: url('../img/GSVweb_Background_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   #gisssaune-web header {
     padding-inline: 0;
     padding-top: 10px;
